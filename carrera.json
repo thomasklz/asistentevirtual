@@ -1,0 +1,66 @@
+{
+  "nombre": "Computación",
+  "institucion": "ESPAM MFL",
+  "modalidad": "Presencial",
+  "jornada": "Diurna",
+  "horario": "08:00 a 17:00",
+  "contacto_email": "computacion@espam.edu.ec",
+  "nivel_formacion": "Tercer nivel",
+  "titulo": "Ingeniero/a en Ciencias de la Computación",
+  "codigo_sniese": "650611A02-P-1302",
+  "objetivo": "Formar profesionales que aporten innovaciones computacionales para solucionar problemas sociales, regionales y nacionales, con énfasis en el sector agropecuario y agroindustrial y con responsabilidad económica, ambiental, ética y social.",
+  "mision": "Formar profesionales de Computación con una sólida base en ciencias y tecnología, capaces de desarrollar soluciones sostenibles, eficientes e innovadoras para el sector agroproductivo y otros contextos relevantes.",
+  "vision": "Ser reconocidos por la excelencia en la formación integral de profesionales de Computación que aporten soluciones sostenibles, eficientes y creativas ante desafíos tecnológicos.",
+  "campo_profesional": [
+    {"rol": "Gerente de proyectos de tecnología", "descripcion": "Dirige proyectos tecnológicos durante todo su ciclo de vida."},
+    {"rol": "Director o investigador de proyectos", "descripcion": "Dirige y participa en proyectos de investigación en ciencias de la computación."},
+    {"rol": "Asesor o consultor de tecnología", "descripcion": "Asesora en tecnología, evalúa soluciones y realiza auditorías informáticas."},
+    {"rol": "Analista o desarrollador de sistemas computacionales", "descripcion": "Analiza procesos y desarrolla sistemas para resolver problemas de organizaciones."}
+  ],
+  "perfil_egreso": "Profesional capaz de aprender y adaptarse a la evolución de la computación, aplicando automatización, sistemas inteligentes, análisis de datos, modelado y desarrollo de soluciones con responsabilidad ética y social.",
+  "malla_actual": {
+    "niveles": 8,
+    "creditos": 120,
+    "horas_totales": 5760,
+    "asignaturas": 41,
+    "practicas_laborales_horas": 432,
+    "servicio_comunitario_horas": 96,
+    "materias_por_nivel": {
+      "1": ["Cálculo de una variable", "Lenguaje y comunicación", "Introducción a la Ingeniería en Ciencia Computacional", "Lógica matemática", "Interculturalidad"],
+      "2": ["Cálculo de varias variables", "Física I", "Álgebra lineal", "Estructuras discretas", "Introducción a la programación"],
+      "3": ["Ecuaciones diferenciales", "Física II", "Estadística", "Teoría de la computación", "Programación orientada a objetos", "Estructura de datos"],
+      "4": ["Modelado y simulación", "Electrónica básica", "Interfaces e interacción humano-computador", "Inteligencia artificial", "Desarrollo de software", "Bases de datos"],
+      "5": ["Metodología de la investigación", "Lógica y sistemas digitales", "Seguridad informática", "Procesamiento de lenguaje natural", "Ingeniería de software", "Desarrollo de sistemas y aplicaciones web"],
+      "6": ["Introducción a la ciencia de datos", "Arquitectura de computadoras y paralelismo", "Legislación informática", "Aprendizaje automático", "Gestión de proyectos tecnológicos", "Desarrollo de aplicaciones para dispositivos móviles"],
+      "7": ["Desarrollo de la unidad de integración curricular I", "Redes de computadoras", "Sistemas operativos", "Aprendizaje profundo", "Emprendimiento tecnológico", "Aplicaciones distribuidas e Internet de las cosas"],
+      "8": ["Desarrollo de la unidad de integración curricular II"]
+    }
+  },
+  "temas_microcurriculares": {
+    "Introducción a la Ingeniería en Ciencia Computacional": "fundamentos e historia de la computación, sistemas de cómputo y tendencias como nube, datos e inteligencia artificial",
+    "Inteligencia artificial": "fundamentos de IA, búsqueda y representación del conocimiento, metaheurísticas y algoritmos genéticos",
+    "Bases de datos": "modelos y diseño de datos, SQL y tecnologías no relacionales o NoSQL",
+    "Procesamiento de lenguaje natural": "análisis de texto y sentimientos, extracción de información, modelos de lenguaje y aplicaciones de PLN"
+  },
+  "requisitos_titulacion_documentados": [
+    "Certificar el aprendizaje de una segunda lengua mediante los cursos del Centro de Idiomas de la ESPAM MFL.",
+    "Presentar el certificado de aprobación de cursos del Centro de Aprendizajes de Aplicaciones Informáticas de la ESPAM MFL."
+  ],
+  "malla_anterior": {
+    "niveles": 10,
+    "creditos": 150,
+    "horas_totales": 7200,
+    "asignaturas": 47,
+    "practicas_laborales_horas": 480,
+    "servicio_comunitario_horas": 144
+  },
+  "fuentes": {
+    "malla_actual": "062024ComputacionMallaActual.pdf",
+    "malla_anterior": "[3.3] Malla anterior Computación.pdf",
+    "datos_generales": "2_1003_32726_anexo_complementario_70094.pdf",
+    "contenidos_asignaturas": "Descripción Micro Computación.pdf",
+    "objetivo_y_roles": "ComputacionRediseño.pdf (documento de rediseño de 2015; no usar sus diez períodos como duración actual)",
+    "jornada_horario_contacto_mision_vision_perfil": "Información proporcionada directamente por el usuario"
+  },
+  "nota": "Información extraída de los documentos proporcionados. La malla anterior se incluye solo para consultas históricas; confirmar vigencia y casos individuales con la coordinación de la carrera."
+}

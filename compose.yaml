@@ -1,0 +1,11 @@
+services:
+  avatar:
+    build: .
+    image: feria-avatar:local
+    ports:
+      - "127.0.0.1:8001:8001"
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-6-luna}
+      OPENAI_MAX_OUTPUT_TOKENS: ${OPENAI_MAX_OUTPUT_TOKENS:-1200}
+    restart: unless-stopped

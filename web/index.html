@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luma · Asistente de Computación</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/refinement.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">✦</span><div><strong>LUMA</strong><small>ASISTENTE DE LA CARRERA DE COMPUTACIÓN</small></div></div>
+      <div id="mode" class="mode">Conectando…</div>
+    </header>
+    <div class="layout">
+      <section class="avatar-panel" aria-label="Avatar Luma">
+        <div class="avatar-kicker"><span class="live-dot"></span> ASISTENTE VIRTUAL EN VIVO</div>
+        <div class="halo halo-one"></div><div class="halo halo-two"></div>
+        <div class="spark spark-a">✦</div><div class="spark spark-b">✧</div>
+        <div class="avatar-callout">¡Exploremos juntos! <span>✦</span></div>
+        <div class="avatar" id="avatar" aria-hidden="true">
+          <div class="hair"></div>
+          <div class="head"><div class="eyes"><i></i><i></i></div><div class="cheeks"><i></i><i></i></div><div class="mouth"></div></div>
+          <div class="neck"></div><div class="body"></div>
+        </div>
+        <div class="avatar-label"><span class="online-dot"></span><strong>¡Hola! Soy Luma</strong><p>Estoy aquí para ayudarte a conocer la carrera de Computación.</p></div>
+        <div id="voice-status" class="voice-status" aria-live="polite">Lista para conversar</div>
+      </section>
+      <section class="chat-panel" aria-label="Conversación">
+        <div class="chat-heading"><div><p class="eyebrow">CONVERSACIÓN INTERACTIVA</p><h1>¿Qué quieres saber de Computación?</h1><p class="chat-subtitle">Pregúntame por la carrera, sus docentes, materias y malla.</p></div><button id="clear" class="clear" type="button" title="Nueva conversación">↻ <span>Nueva charla</span></button></div>
+        <div id="messages" class="messages" role="log" aria-live="polite"></div>
+        <div class="suggestions-label">PREGUNTAS PARA EMPEZAR</div>
+        <div id="suggestions" class="suggestions"></div>
+        <form id="chat-form" class="composer">
+          <button id="mic" class="icon-button" type="button" title="Hablar por micrófono" aria-label="Hablar por micrófono">🎙</button>
+          <input id="message" name="message" maxlength="500" autocomplete="off" placeholder="Escribe tu pregunta aquí…" aria-label="Tu pregunta">
+          <button id="send" class="send" type="submit">Enviar <span>➜</span></button>
+        </form>
+        <div class="chat-footer"><label><input id="voice" type="checkbox" checked> Leer respuestas en voz alta</label><span id="privacy">No se guarda la conversación en este servidor.</span></div>
+      </section>
+    </div>
+    <footer class="page-footer">Luma · Asistente virtual de la carrera de Computación · ESPAM MFL</footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
